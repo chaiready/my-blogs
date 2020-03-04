@@ -1,0 +1,90 @@
+$colors: (
+  "primary":#6bc30d,
+  "primary-1":#4ebbaa,
+  "orange": #ffb929,
+  "purple": #562483,
+  "orange-dark": #ffaa00,
+  "orange-light": #fff8ea,
+  "purple-light": #8600ff,
+  "pink":#f56c6c,
+  "blue":#008bd5,
+  "white": #fff,
+  "grey": #f9f9f9,
+  "light":#fcfcfc, 
+  "light-1":#eceef0,
+  "light-2":#efefee,
+  "light-3":#f7f8f7,
+  "grey-4":#989898,
+  "grey-3":#40474b,
+  "grey-2":#5b6770,
+  "grey-1":#7b7b7b,
+  "black-dark": #414240,
+  "dark": #333,
+  "black-1": #161a1d,
+  "black-2": #141414,
+  "black": #000,
+  // "blue": #409eff,
+  "green":#13ce66,
+  "red-light":#ff4848,
+  "red":#e6162e,
+);
+// font size
+$base-font-size: 1rem;
+$font-sizes: (
+  s: .6 /* 6/10 */,
+  m: .8 /* 8/10 */,
+  l: 1/* 10/10 */,
+  xl: 1.2 /* 12/10 */,
+  2xl: 1.4 /* 14/10 */,
+  3xl: 1.6 /* 16/10 */,
+  4xl: 1.8 /* 18/10 */,
+  5xl: 2 /* 24/10 */,
+  7xl: 2.4 /* 24/10 */,
+  8xl: 2.6 /* 26/10 */,
+  
+  9xl: 2.8 /* 28/10 */,
+  10xl: 3 /* 30/10 */
+);
+$spacingTypes: (
+  m: margin,
+  p: padding
+);
+$directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+$spacingBaseSize: 1rem;
+$spacingSizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  4l: 2,
+  5: 3,
+  6: 5,
+  7: 10,
+);
+$flex-jcs: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around
+);
+$flex-ais: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch
+);
+$navigation-height: 56px;
+
+$iPadPro-cloumn-width: 1366px;
+$iPad-cloumn-width: 1024px;
+$iPad-row-width: 768px;
+$max-mobile-width: 600px;
+
